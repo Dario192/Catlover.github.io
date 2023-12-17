@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans&display=swap');
+
+body{
+    background-image: url(../gatos/maine-coon-694730_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    background-color: rgba(0, 0, 0, 0.651);
+    width: 900px;
+    margin: auto ;
+    margin-top: 10px;
+    padding: 10px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+}
+
+.container h2{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 28px;
+    font-family: 'EB Garamond', serif;
+}
+
+.container P{
+    text-align: justify-all;
+    margin-top: 10px;
+    font-size: 16px;
+    margin: 10px;
+    column-span: all;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#img1{
+ width: 400px;
+float: left;
+ margin: 15px;
+ margin-top: 10px;
+}
+
+#img2{
+    width: 400px;
+   float: right;
+    margin: 10px;
+    margin-top: -50px;
+   }
+
+   .url a{
+    background: #851919;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: none;
+}
